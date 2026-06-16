@@ -92,7 +92,7 @@ with st.sidebar:
     num_questions = st.slider("❓ Number of Questions", 3, 15, 5)
 
     st.markdown("---")
-    st.markdown("### 📊 Your Stats")
+    st.markdown("### 📊 Your Status")
     col1, col2 = st.columns(2)
     with col1:
         st.markdown(f"""<div class="stat-card">
@@ -446,5 +446,5 @@ with tab6:
         ("❓ Ask Smart Questions", "Prepare 3-4 thoughtful questions to ask the interviewer."),
         ("💻 Test Your Tech", "Test camera, mic, and internet 30 mins before virtual interviews."),
         ("📧 Follow Up", "Send a thank-you email within 24 hours after the interview."),
-        ("🧠 Practice Aloud", "Record yourself answering — it exposes filler words and awkward pauses."),
-        ("📊 Quantify Impact", "'Improved performance by 30%' beats 'improved performance' 
+        ("🧠 Practice Aloud", "Record yourself answering — it exposes filler words ."),
+         ("📊 Quantify Impact", "Say Improved performance by 30 percent instead of just improved performance."),
