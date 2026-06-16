@@ -26,12 +26,12 @@ st.markdown("""
         border-radius: 8px;
         font-weight: 600;
         border: none;
-    }
+    }l
     div.stButton > button[kind="primary"] {
         background: linear-gradient(135deg, #6C63FF 0%, #4834d4 100%);
         color: white;
     }
-    .stTabs [data-baseweb="tab-list"] { gap: 6px; }
+    .stTabs [data-basweb="tab-list"] { gap: 6px; }
     .stTabs [data-baseweb="tab"] {
         border-radius: 8px 8px 0 0;
         padding: 8px 16px;
@@ -64,7 +64,7 @@ api_key = get_api_key()
 model = None
 if api_key:
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.0-flash")
 
 st.sidebar.markdown("---")
 job_role = st.sidebar.text_input("Job Role", value="Software Engineer")
