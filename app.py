@@ -453,4 +453,4 @@ with tab6:
         ("⭐ STAR Method", "Situation → Task → Action → Result. Always quantify your results with numbers."),
         ("❓ Ask Smart Questions", "Prepare 3-4 thoughtful questions to ask the interviewer."),
         ("💻 Test Your Tech", "Test camera, mic, and internet 30 mins before virtual interviews."),
-        ("📧 Follow Up", "Send a thank-you email within 24 hours af
+        ("📧 Follow Up", "Send a thank-you email within 24 hours after the interview."),
